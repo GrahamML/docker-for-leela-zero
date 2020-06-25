@@ -13,12 +13,12 @@ The following are additions or limitations to the requirements of leela-zero.
 + nvidia-docker >= 2.0
 
 # 2. Installation
-## 2.1 Download
+## 2.1. Download
 Clone this repository:  
 ```console
 $ git clone https://github.com/GrahamML/docker_for_leela-zero.git
 ```
-## 2.2 Build the docker image
+## 2.2. Build the docker image
 
 
 ```console
@@ -33,7 +33,7 @@ $ docker build --tag=[image_name:tag] .
     | 16.04  | OpenCL 1.2 CUDA     |
 
 # 3. How to run
-## 3.1 Start the docker image
+## 3.1. Start the docker image
 Start the docker image as follows:  
 ```console
 $ docker run \
@@ -44,9 +44,9 @@ $ docker run \
     --name [container_name] \
     [image_name:tag]
 ```  
-## 3.2 Launch the leela-zero
+## 3.2. Launch the leela-zero
 Launch the leela-zero in this container. The following is an example of launching in test mode and AutoGTP (self play) mode.
-### 3.2.1. Test mode
+### Test mode
 ```console
 $ cd leela-zero/build
 $ ./tests
@@ -67,7 +67,7 @@ Device ID:     0
 [==========] 13 tests from 2 test cases ran. (145254 ms total)
 [  PASSED  ] 13 tests.
 ```
-### 3.2.2. AutoGTP mode
+### AutoGTP mode
 ```console
 $ cd leela-zero/build/autogtp
 $ ./autogtp
