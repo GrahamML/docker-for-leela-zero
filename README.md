@@ -26,6 +26,10 @@ $ cd ./docker_for_leela-zero/dockerfile
 $ docker build --tag=[image_name:tag] .
 ```  
 + This dockerfile install the requirement packages on the [NVIDIA OpenCL official docker image](https://hub.docker.com/r/nvidia/opencl), and make the leela-zero runtime.
++ The following is an example of a build command.  
+    ```
+    $ docker build --tag=leela-zero:latest . 
+    ```
 + The following shows the version of Ubuntu, CUDA, and TensorRT in this container. 
 
     | Ubuntu | OpenCL              |
