@@ -87,5 +87,11 @@ Score: B+31.5
 Winner: black
 ```  
 + Refer to the [leela-zero's readme](https://github.com/leela-zero/leela-zero/blob/master/README.md) for more information on onptions and launch modes.
-# 4. License  
+
+# 4. Communitacion with Lizzie  
+See this [wiki](https://github.com/GrahamML/docker_for_AQ/wiki/Communitacion-with-Lizzie).  
+
+![Select](https://github.com/GrahamML/docker_for_AQ/wiki/images/Communitacion-with-Lizzie/Fig9.png)
+
+# 5. License  
 [MIT](https://github.com/GrahamML/docker_for_leela-zero/blob/master/LICENSE)
