@@ -88,6 +88,13 @@ Winner: black
 ```  
 + Refer to the [leela-zero's readme](https://github.com/leela-zero/leela-zero/blob/master/README.md) for more information on onptions and launch modes.
 
+## 3-3. Network Update  
+The network parameters can be updated in a container as follows:
+```console
+$ cd leela-zero/build
+$ curl -O https://zero.sjeng.org/best-network
+```
+
 # 4. Communitacion with Lizzie  
 See this [wiki](https://github.com/GrahamML/docker_for_AQ/wiki/Communitacion-with-Lizzie).  
 
