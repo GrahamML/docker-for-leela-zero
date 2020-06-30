@@ -1,4 +1,4 @@
-# docker_for_leela-zero
+# docker-for-leela-zero
 This repository provides a dockerfile for building a runtime environment for [leela-zero](https://github.com/leela-zero/leela-zero).
 
 Leela-zero is :
@@ -16,13 +16,13 @@ The following are additions or limitations to the requirements of leela-zero.
 ## 2.1. Download
 Clone this repository:  
 ```console
-$ git clone https://github.com/GrahamML/docker_for_leela-zero.git
+$ git clone https://github.com/GrahamML/docker-for-leela-zero.git
 ```
 ## 2.2. Build the docker image
 
 
 ```console
-$ cd ./docker_for_leela-zero/dockerfile
+$ cd ./docker-for-leela-zero/dockerfile
 $ docker build --tag=[image_name:tag] .
 ```  
 + This dockerfile install the requirement packages on the [NVIDIA OpenCL official docker image](https://hub.docker.com/r/nvidia/opencl), and make the leela-zero runtime.
