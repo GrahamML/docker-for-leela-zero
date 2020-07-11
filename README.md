@@ -32,7 +32,7 @@ $ docker build --tag=[image_name:tag] .
     ```
     $ docker build --tag=leela-zero:latest . 
     ```
-+ The following shows the version of Ubuntu, CUDA, and TensorRT in this container. 
++ The following shows the version of Ubuntu and OpenCL in this container. 
 
     | Ubuntu | OpenCL              |
     |--------|---------------------|
