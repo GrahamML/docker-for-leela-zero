@@ -21,8 +21,6 @@ Clone this repository:
 $ git clone https://github.com/GrahamML/docker-for-leela-zero.git
 ```
 ## 2.2. Build the docker image
-
-
 ```console
 $ cd ./docker-for-leela-zero/dockerfile
 $ docker build --tag=[image_name:tag] .
@@ -50,7 +48,8 @@ $ docker run \
     --name [container_name] \
     [image_name:tag]
 ```  
-+ The example above is for `nvidia-docker2` case. If it's `nvidia-container-toolkit` case, change it appropriately.   
++ The example above is for `nvidia-docker2` case. If it's `nvidia-container-toolkit` case, change it appropriately.  
+
 ## 3.2. Launch the leela-zero
 Launch the leela-zero in this container. The following is an example of launching in test mode and AutoGTP (self play) mode.
 ### Test mode
