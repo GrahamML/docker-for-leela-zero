@@ -1,11 +1,11 @@
 # docker-for-leela-zero
 This repository provides a dockerfile for building a runtime environment for [leela-zero](https://github.com/leela-zero/leela-zero).  
 
-_日本語の説明は[こちら](https://github.com/GrahamML/docker-for-leela-zero/blob/master/README_JP.md)を参照ください。_
-
 Leela-zero is :
 >A Go program with no human provided knowledge. Using MCTS (but without Monte Carlo playouts) and a deep residual convolutional neural network stack.  
-This is a fairly faithful reimplementation of the system described in the Alpha Go Zero paper "Mastering the Game of Go without Human Knowledge". For all intents and purposes, it is an open source AlphaGo Zero.
+This is a fairly faithful reimplementation of the system described in the Alpha Go Zero paper "Mastering the Game of Go without Human Knowledge". For all intents and purposes, it is an open source AlphaGo Zero.  
+
+_日本語の説明は[こちら](https://github.com/GrahamML/docker-for-leela-zero/blob/master/README_JP.md)を参照ください。_
 
 # 1. Prerequisites  
 The following are additions or limitations to the requirements of leela-zero. 
