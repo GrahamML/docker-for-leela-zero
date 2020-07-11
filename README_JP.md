@@ -3,7 +3,9 @@
 
 Leela-zero is :
 >A Go program with no human provided knowledge. Using MCTS (but without Monte Carlo playouts) and a deep residual convolutional neural network stack.  
-This is a fairly faithful reimplementation of the system described in the Alpha Go Zero paper "Mastering the Game of Go without Human Knowledge". For all intents and purposes, it is an open source AlphaGo Zero.
+This is a fairly faithful reimplementation of the system described in the Alpha Go Zero paper "Mastering the Game of Go without Human Knowledge". For all intents and purposes, it is an open source AlphaGo Zero.  
+
+_Click [here](https://github.com/GrahamML/docker-for-leela-zero/blob/master/README.md) for the README in English._
 
 # 1. 前提条件  
 Leela-zeroの動作要件に対する追加、制約要件は以下の通りです。 
