@@ -1,5 +1,7 @@
 # docker-for-leela-zero
-This repository provides a dockerfile for building a runtime environment for [leela-zero](https://github.com/leela-zero/leela-zero).
+This repository provides a dockerfile for building a runtime environment for [leela-zero](https://github.com/leela-zero/leela-zero).  
+
+_日本語の説明は[こちら](https://github.com/GrahamML/docker-for-leela-zero/blob/master/README_JP.md)を参照ください。_
 
 Leela-zero is :
 >A Go program with no human provided knowledge. Using MCTS (but without Monte Carlo playouts) and a deep residual convolutional neural network stack.  
